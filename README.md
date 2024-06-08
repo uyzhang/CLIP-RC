@@ -51,7 +51,7 @@ bash dist_train.sh configs/voc12/clip_rc_zero_vit-b_512x512_40k_voc_10_16.py wor
 ### Transductive Training
 ```shell
 # for example
-bash dist_train.sh configs/voc12/clip_rc_zero_vit-b_512x512_20k_voc_10_16_st.py work_dirs/clip_rc_zero_vit-b_512x512_20k_voc_10_16_st 2 --load-from work_dirs/clip_rc_zero_vit-b_512x512_40k_voc_10_16/xxx.pth
+bash dist_train.sh configs/voc12/clip_rc_zero_vit-b_512x512_20k_voc_10_16_st.py work_dirs/clip_rc_zero_vit-b_512x512_20k_voc_10_16_st 2 --load-from work_dirs/clip_rc_zero_vit-b_512x512_40k_voc_10_16/iter_20000.pth
 ```
 
 ### Fully supervised Training
