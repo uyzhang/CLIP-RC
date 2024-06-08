@@ -1,0 +1,7 @@
+timm==0.4.12
+scipy==1.10.1
+yapf==0.40.0
+fvcore
+openmim
+ftfy
+regex
