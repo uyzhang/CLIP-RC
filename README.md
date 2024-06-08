@@ -1,5 +1,5 @@
 # [CVPR2024] Exploring Regional Clues in CLIP for Zero-Shot Semantic Segmentation(CLIP-RC). 
-This is the official PyTorch implementation of our conference paper : [Exploring Regional Clues in CLIP for Zero-Shot Semantic Segmentation](https://github.com/uyzhang/CLIP-RC).
+This is the official PyTorch implementation of the paper : [Exploring Regional Clues in CLIP for Zero-Shot Semantic Segmentation](https://github.com/uyzhang/CLIP-RC).
 
 [[`Paper #1`](https://github.com/uyzhang/CLIP-RC)] [[`BibTeX`](https://github.com/uyzhang/CLIP-RC?tab=readme-ov-file#citing-clip-rc)]
 
