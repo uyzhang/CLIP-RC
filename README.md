@@ -1,7 +1,7 @@
 # [CVPR2024] Exploring Regional Clues in CLIP for Zero-Shot Semantic Segmentation(CLIP-RC). 
-This is the PyTorch implementation of the paper : [Exploring Regional Clues in CLIP for Zero-Shot Semantic Segmentation](https://github.com/uyzhang/CLIP-RC).
+This is the PyTorch implementation of the paper : [Exploring Regional Clues in CLIP for Zero-Shot Semantic Segmentation](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Exploring_Regional_Clues_in_CLIP_for_Zero-Shot_Semantic_Segmentation_CVPR_2024_paper.pdf).
 
-[[`Paper #1`](https://github.com/uyzhang/CLIP-RC)] [[`BibTeX`](https://github.com/uyzhang/CLIP-RC?tab=readme-ov-file#citing-clip-rc)]
+[[`Paper #1`](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Exploring_Regional_Clues_in_CLIP_for_Zero-Shot_Semantic_Segmentation_CVPR_2024_paper.pdf)] [[`BibTeX`](https://github.com/uyzhang/CLIP-RC?tab=readme-ov-file#citing-clip-rc)]
 
 ## Abstract
 CLIP has demonstrated marked progress in visual recognition due to its powerful pre-training on large-scale image-text pairs. However, it still remains a critical challenge: how to transfer image-level knowledge into pixel-level understanding tasks such as semantic segmentation. In this paper, to solve the mentioned challenge, we analyze the gap between the capability of the CLIP model and the requirement of the zero-shot semantic segmentation task. Based on our analysis and observations, we propose a novel method for zero-shot semantic segmentation, dubbed **CLIP-RC** (CLIP with Regional Clues), bringing two main insights. On the one hand, a region-level bridge is necessary to provide fine-grained semantics. On the other hand, overfitting should be mitigated during the training stage. Benefiting from the above discoveries, CLIP-RC achieves state-of-the-art performance on various zero-shot semantic segmentation benchmarks, including PASCAL VOC, PASCAL Context, and COCO-Stuff 164K. 
@@ -82,5 +82,12 @@ Our work is closely related to the following assets that inspire our implementat
 If you find it helpful, you can cite our paper in your work.
 
 ```
-@article{}
+@InProceedings{Zhang_2024_CVPR,
+    author    = {Zhang, Yi and Guo, Meng-Hao and Wang, Miao and Hu, Shi-Min},
+    title     = {Exploring Regional Clues in CLIP for Zero-Shot Semantic Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {3270-3280}
+}
 ```
