@@ -7,4 +7,3 @@ from models.losses.seg_loss import SegLoss
 
 from configs._base_.datasets.dataloader.voc12 import ZeroPascalVOCDataset20
 from configs._base_.datasets.dataloader.coco_stuff import ZeroCOCOStuffDataset
-from configs._base_.datasets.dataloader.pascal_context import ZeroPascalContextDataset60
